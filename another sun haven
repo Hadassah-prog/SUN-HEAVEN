@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUN HAVEN</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-size: small;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+            forced-color-adjust: light rgb(0, 255, 255);
+            }
+
+          .h  {font-size: smaller;
+            font-weight: bold;
+
+            }
+        .hero-section {
+            background: #f8f9fa;
+            padding: 50px 0;
+        }
+        .hero-section .img-placeholder {
+            background: #eaeaea;
+            width: 100%;
+            height: 300px;
+        }
+        .steps-section,
+        .services-section,
+        .doctors-section,
+        .testimonial-section,
+        .register-section {
+            padding: 50px 0;
+        }
+        .steps-section .step,
+        .services-section .service,
+        .doctors-section .doctor,
+        .testimonial-section .testimonial {
+            text-align: center;
+            padding: 20px;
+        }
+        .img-placeholder {
+            background: #eaeaea;
+            width: 100%;
+            height: 150px;
+            margin-bottom: 20px;
+        }
+        .footer {
+            background: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .nav-bar-nav ms auto { text-align: center;
+
+}
+        
+
+    </style>
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"> <div class="container"> <a class="navbar-brand" href="#">SUN HAVEN</a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> 
+         <div class="collapse navbar-collapse" id="navbarNav"> 
+          <ul class="navbar-nav ms-auto"> 
+           <li class="nav-item"><a class="nav-link" href="#">Home</a></li> 
+           <li class="nav-item"><a class="nav-link" href="#">Services</a></li> 
+           <li class="nav-item"><a class="nav-link" href="#">Doctors</a></li> 
+           <li class="nav-item"><a class="nav-link" href="#">About Us</a></li> 
+           
+          </ul> 
+         </div> 
+        </div> 
+       </nav>
+<!-- Hero Section --> 
+<section class="hero-section text-center"> 
+    <div class="container"> 
+     <div class="row align-items-center"> 
+      <div class="col-lg-6"> 
+       <h1 class="h">We are happy to engage you with our servies</h1> 
+       <p class p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p> 
+       <input type="text" class="form-control mb-2" placeholder="Enter email"> <button class="btn btn-dark">Sign Up</button> 
+       <br> <button class="btn btn-outline-dark mt-3">Read More</button> 
+      </div> 
+      <div class="col-lg-6"> 
+       <div class="img-placeholder bg-secondary" style="height: 300px; width: 100%;"></div> 
+      </div> 
+     </div> 
+    </div> 
+    
+
+    <!-- Steps Section -->
+    <section class="steps-section">
+        <div class="container">
+            <h2 class="text-center">Easy Steps And Get Your Solution</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 step">
+                    <div class="img-placeholder"></div>
+                    <p>Check Service Profile</p>
+                </div>
+                <div class="col-lg-3 col-md-6 step">
+                    <div class="img-placeholder"></div>
+                    <p>Request Consultation</p>
+                </div>
+                <div class="col-lg-3 col-md-6 step">
+                    <div class="img-placeholder"></div>
+                    <p>Structure Plan Consultation</p>
+                </div>
+                <div class="col-lg-3 col-md-6 step">
+                    <div class="img-placeholder"></div>
+                    <p>Get Your Solution</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section">
+        <div class="container">
+            <h2 class="text-center">Our Best Services</h2>
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-sm-6 service">
+                    <div class="img-placeholder"></div>
+                    <p>All Specialist</p>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 service">
+                    <div class="img-placeholder"></div>
+                    <p>Private & Secure</p>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 service">
+                    <div class="img-placeholder"></div>
+                    <p>Million Customers</p>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 service">
+                    <div class="img-placeholder"></div>
+                    <p>Chatbot Support</p>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 service">
+                    <div class="img-placeholder"></div>
+                    <p>Online Care</p>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 service">
+                    <div class="img-placeholder"></div>
+                    <p>24/7 Service</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Doctors Section -->
+    <section class="doctors-section">
+        <div class="container">
+            <h2 class="text-center">Our Best Doctors</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 doctor">
+                    <div class="img-placeholder"></div>
+                    <p>Dr. Murphy (Ph.D)</p>
+                </div>
+                <div class="col-lg-3 col-md-6 doctor">
+                    <div class="img-placeholder"></div>
+                    <p>Dr. Lewis (Ph.D)</p>
+                </div>
+                <div class="col-lg-3 col-md-6 doctor">
+                    <div class="img-placeholder"></div>
+                    <p>Dr. Angela (Ph.D)</p>
+                </div>
+                <div class="col-lg-3 col-md-6 doctor">
+                    <div class="img-placeholder"></div>
+                    <p>Dr. Matthew (Ph.D)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonial-section">
+        <div class="container">
+            <h2 class="text-center">What People Say About Us</h2>
+            <div class="row">
+                <div class="col-md-6 testimonial">
+                    <div class="img-placeholder"></div>
+                    <p>Name</p>
+                    <p>Testimonial text goes here.</p>
+                </div>
+                <div class="col-md-6 testimonial">
+                    <div class="img-placeholder"></div>
+                    <p>Name</p>
+                    <p>Testimonial text goes here.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Register Section -->
+    <section class="register-section text-center">
+        <div class="container">
+            <h2>Want to Register Easily?</h2>
+            <button class="btn btn-primary">Submit Now</button>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 S. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
