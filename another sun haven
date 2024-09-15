@@ -3,211 +3,388 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SUN HAVEN</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            font-size: small;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-            forced-color-adjust: light rgb(0, 255, 255);
-            }
-
-          .h  {font-size: smaller;
-            font-weight: bold;
-
-            }
-        .hero-section {
-            background: #f8f9fa;
-            padding: 50px 0;
-        }
-        .hero-section .img-placeholder {
-            background: #eaeaea;
-            width: 100%;
-            height: 300px;
-        }
-        .steps-section,
-        .services-section,
-        .doctors-section,
-        .testimonial-section,
-        .register-section {
-            padding: 50px 0;
-        }
-        .steps-section .step,
-        .services-section .service,
-        .doctors-section .doctor,
-        .testimonial-section .testimonial {
-            text-align: center;
-            padding: 20px;
-        }
-        .img-placeholder {
-            background: #eaeaea;
-            width: 100%;
-            height: 150px;
-            margin-bottom: 20px;
-        }
-        .footer {
-            background: #343a40;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-        .nav-bar-nav ms auto { text-align: center;
-
-}
-        
-
-    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Beauty & Products</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<rel="stylesheet" href="index.css">
 </head>
 <body>
-    <!--navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light"> <div class="container"> <a class="navbar-brand" href="#">SUN HAVEN</a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> 
-         <div class="collapse navbar-collapse" id="navbarNav"> 
-          <ul class="navbar-nav ms-auto"> 
-           <li class="nav-item"><a class="nav-link" href="#">Home</a></li> 
-           <li class="nav-item"><a class="nav-link" href="#">Services</a></li> 
-           <li class="nav-item"><a class="nav-link" href="#">Doctors</a></li> 
-           <li class="nav-item"><a class="nav-link" href="#">About Us</a></li> 
-           
-          </ul> 
-         </div> 
-        </div> 
-       </nav>
-<!-- Hero Section --> 
-<section class="hero-section text-center"> 
-    <div class="container"> 
-     <div class="row align-items-center"> 
-      <div class="col-lg-6"> 
-       <h1 class="h">We are happy to engage you with our servies</h1> 
-       <p class p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p> 
-       <input type="text" class="form-control mb-2" placeholder="Enter email"> <button class="btn btn-dark">Sign Up</button> 
-       <br> <button class="btn btn-outline-dark mt-3">Read More</button> 
-      </div> 
-      <div class="col-lg-6"> 
-       <div class="img-placeholder bg-secondary" style="height: 300px; width: 100%;"></div> 
-      </div> 
-     </div> 
-    </div> 
+    <!-- Header Section -->
+    <header>
+        <div class="container   cont">
+          <div class="logo">
+
+            <img src="/images/logo.png" alt="">
+          </div>
+
+
+            <nav   class="navigation">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="btns">
+                  <a href="">Login</a>
+                  <button>
+                    <a href="">Signup</a>
+                  </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner Section -->
+    <section class="banner" aria-labelledby="banner-heading">
+        <div class="container  banner">
+            <div class="container-text">
+
+
+                <h2 id="banner-heading">Discover Our Beauty Collection</h2>
+                <p>Quality beauty products at unbeatable prices</p>
+              
+
+                <h2>    welcome   </h2>
+
+                <div class="input-group">
+                    <input type="text" placeholder="Enter something...">
+                    <button>Submit</button>
+                </div>
+
+
+
+                <div class="button-group">
+                    <!-- Book Now Button -->
+                    <button class="book-now">Book Now</button>
+                    <!-- Play Video Button with Icon -->
+                    <button class="play-video">
+                        <i class="fas fa-play"></i>
+                        Play Video Now
+                    </button>
+                </div>
+            
+
+            </div>
+
+
+            <div class="container-banner">
+
+               <video src="https://cdn.pixabay.com/photo/2020/09/11/22/39/makeup-5564392_1280.png"   controls></video>
+            
+            </div>
+          
+        </div>
+    </section>
+
+
+
+    <section class="stats-section">
+        <h2 class="stats-heading">Beauty Stats</h2>
+        <div class="stats-container">
+            <div class="stat-box">
+                <div class="stat-number">10,000</div>
+                <p class="stat-text">Happy Customers</p>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">250</div>
+                <p class="stat-text">Products Sold</p>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">1,200</div>
+                <p class="stat-text">Positive Reviews</p>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">50</div>
+                <p class="stat-text">Awards Won</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Main Content -->
+    <main>
+        <!-- Products Section -->
+        <section class="products" aria-labelledby="products-heading">
+            <div class="container">
+                <h2 id="products-heading">Our Products</h2>
+                <div class="product-grid">
+                    <article class="product">
+                        <img src="assert/wel pic.jpg" alt="Product 1">
+                        <h3>Product 1</h3>
+                        <p>$25.00</p>
+                    </article>
+                    <article class="product">
+                        <img src="assert/wel pic 1.jpg" alt="Product 2">
+                    <article class="product gal">
+                        <img src=" alt="Product 4">
+                        <h3>Product 4</h3>
+                        <p>$35.00</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        
+    <!-- Main Content -->
+    <main>
+        <!-- Products Section -->
+        <section class="products" aria-labelledby="products-heading">
+            <div class="container">
+                <h2 id="products-heading">Our Products</h2>
+                <div class="product-grid">
+
+                    <article class="product">
+                        <img src="assert/pic 1.webp" alt="Product 1">
+                        <h3>Product 01</h3>
+                        <p>$25.00</p>
+                    </article>
+
+
+                    <article class="product">
+                        <img src="/assert/pic 3.jpg" alt="Product 2">
+                        <h4>Product 2</h4>
+                        <p>$25.00</p>
+                    </article>
+
+
+                    <article class="product">
+                        <img src="assert/pic 2.webp" alt="Product 1">
+                        <h3>Product 3</h3>
+                        <p>$25.00</p>
+                    </article>
+                    <article class="product">
+                        <img src="assert/pic 4.webp" alt="Product 4">
+                        <h3>Product 4</h3>
+                        <p>$30.00</p>
+                    </article>
+                    <article class="product">
+                        <img src="assert/pic 8.jpg" alt="Product 3">
+                        <h3>Product 5</h3>
+                        <p>$40.00</p>
+                    </article>
+                    <article class="product gal">
+                        <img src="assert/pic 7.jpg" alt="Product 4">
+                        <h3>Product 6</h3>
+                        <p>$35.00</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <section class="collections-section">
+            <h2>Our Best Beauty Collections</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Skincare Essentials</h3>
+                    <p>Discover the top-rated skincare products to keep your skin glowing and healthy.</p>
+                </div>
+                <div class="card">
+                    <h3>Luxury Makeup</h3>
+                    <p>Enhance your beauty with our exclusive range of premium makeup products.</p>
+                </div>
+                <div class="card">
+                    <h3>Hair Care Products</h3>
+                    <p>Revitalize your hair with the best shampoos, conditioners, and treatments.</p>
+                </div>
+                <div class="card">
+                    <h3>Fragrance Collection</h3>
+                    <p>Indulge in our signature scents that leave a lasting impression wherever you go.</p>
+                </div>
+            </div>
+        </section>
     
 
-    <!-- Steps Section -->
-    <section class="steps-section">
-        <div class="container">
-            <h2 class="text-center">Easy Steps And Get Your Solution</h2>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 step">
-                    <div class="img-placeholder"></div>
-                    <p>Check Service Profile</p>
+
+
+
+
+        <section class="testimonials-section">
+            <h2>What People Say About Us</h2>
+            <div class="testimonials-container">
+              <article class="testimonial-card">
+                <p class="testimonial-text" data-aos="fade-right">
+                  "Our trip to Bali was beyond amazing! The accommodations, the food, and the excursions were all perfectly planned. We couldn’t have asked for a better vacation!"
+                </p>
+                <h3 class="testimonial-author">– Sarah Johnson</h3>
+                <h3 class="testimonial-author">– Mark Edwards</h3>
+        
+                <div class="testimonial-rating">
+                 <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+                 <i class="fa-regular fa-star"></i>
+                 <i class="fa-regular fa-star"></i>
                 </div>
-                <div class="col-lg-3 col-md-6 step">
-                    <div class="img-placeholder"></div>
-                    <p>Request Consultation</p>
-                </div>
-                <div class="col-lg-3 col-md-6 step">
-                    <div class="img-placeholder"></div>
-                    <p>Structure Plan Consultation</p>
-                </div>
-                <div class="col-lg-3 col-md-6 step">
-                    <div class="img-placeholder"></div>
-                    <p>Get Your Solution</p>
-                </div>
+              </article>
+          
+              <article class="testimonial-card">
+                <p class="testimonial-text"  data-aos="fade-left">
+                  "Thanks to your team, my family had the best European vacation! Everything was smooth from booking to the actual travel. Highly recommended for stress-free travel planning!"
+                </p>
+                <h3 class="testimonial-author">– Mark Edwards</h3>
+        
+           <div class="testimonial-rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+           </div>
+              </article>
+            </div>
+          </section>
+        
+
+
+
+
+    <section class="text-image-section">
+        <div class="text-content">
+            <h2>Discover Our Latest Beauty Products</h2>
+            <p>Explore a wide range of skincare, makeup, and beauty essentials that are tailored to bring out the best in you. Feel confident and radiant with every product in our collection.</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+        <div class="image-content">
+            <img src="/images/collection-1.jpg" alt="Beauty Products">
+        </div>
+    </section>
+
+
+    
+    <section class="text-image-section">
+
+
+        <div class="image-content">
+            <img src="/images/collection-2.jpg" alt="Beauty Products">
+        </div>
+
+        <div class="text-content">
+            <h2>Discover Our Latest Beauty Products</h2>
+            <p>Explore a wide range of skincare, makeup, and beauty essentials that are tailored to bring out the best in you. Feel confident and radiant with every product in our collection.</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+  
+    </section>
+
+
+
+    <section class="testimonials-section">
+       
+        <div class="testimonial-container">
+
+            <h2>What People Say About Us</h2>
+            
+            <div class="testimonial-card">
+                <img src="assert/person 1.jpg" alt="Customer 1">
+                <h3>Jane Doe</h3>
+                <p>The skincare products have transformed my skin! I’ve never felt more confident.</p>
+            </div>
+            <div class="testimonial-card">
+                <img src="assert/person 5.jpg" alt="Customer 2">
+                <h3>Emily Smith</h3>
+                <p>I love the makeup range. It's high-quality and makes me feel radiant every day.</p>
+            </div>
+            <div class="testimonial-card">
+                <img src="/assert/person 3.jpg" alt="Customer 3">
+                <h3>Maria Johnson</h3>
+                <p>The fragrance collection is just divine. I get compliments everywhere I go!</p>
+            </div>
+            <div class="testimonial-card">
+                <img src="assert/person 4.jpg" alt="Customer 4">
+                <h3>Sophia Lee</h3>
+                <p>The hair care products have been amazing. My hair has never felt healthier.</p>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section class="services-section">
-        <div class="container">
-            <h2 class="text-center">Our Best Services</h2>
-            <div class="row">
-                <div class="col-lg-2 col-md-4 col-sm-6 service">
-                    <div class="img-placeholder"></div>
-                    <p>All Specialist</p>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 service">
-                    <div class="img-placeholder"></div>
-                    <p>Private & Secure</p>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 service">
-                    <div class="img-placeholder"></div>
-                    <p>Million Customers</p>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 service">
-                    <div class="img-placeholder"></div>
-                    <p>Chatbot Support</p>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 service">
-                    <div class="img-placeholder"></div>
-                    <p>Online Care</p>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 service">
-                    <div class="img-placeholder"></div>
-                    <p>24/7 Service</p>
+
+
+    <section class="newsletter-section">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Stay updated with our latest beauty tips, product launches, and special offers. Enter your email below to join our mailing list!</p>
+        <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email address" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+
+</main>
+
+    <footer class="footer"  data-aos="fade-up">
+        <div class="footer-container  "  >
+            <div class="footer-section about">
+                <h2 class="footer-title">About Us</h2>
+                <p>We are committed to bringing you the best in footwear. Our exclusive collection features top brands and the latest trends.</p>
+            </div>
+    
+            <div class="footer-section social-icons  flex-icons">
+             <div class="h2">
+                <h2 class="footer-title">Follow Us</h2>
+             </div>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-tiktok"></i></a>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Doctors Section -->
-    <section class="doctors-section">
-        <div class="container">
-            <h2 class="text-center">Our Best Doctors</h2>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 doctor">
-                    <div class="img-placeholder"></div>
-                    <p>Dr. Murphy (Ph.D)</p>
-                </div>
-                <div class="col-lg-3 col-md-6 doctor">
-                    <div class="img-placeholder"></div>
-                    <p>Dr. Lewis (Ph.D)</p>
-                </div>
-                <div class="col-lg-3 col-md-6 doctor">
-                    <div class="img-placeholder"></div>
-                    <p>Dr. Angela (Ph.D)</p>
-                </div>
-                <div class="col-lg-3 col-md-6 doctor">
-                    <div class="img-placeholder"></div>
-                    <p>Dr. Matthew (Ph.D)</p>
-                </div>
+    
+            <div class="footer-section location">
+                <h2 class="footer-title">Our Location</h2>
+                <p> Dubai  merchant Ronald Ngala  street</p>
+                <p>Email: Sumwafula6@gmail.com</p>
+                <p>Phone:+254 718 983 499</p> <p>Phone: +254 114 298 441</p>
+                <p> 
+                    <span  class="map">
+                        <a 
+                        href="">
+                            <i class="fa-solid fa-location-dot"> </i> Directions</a>
+                    </span>
+                </p>
+            </div>
+    
+            <div class="footer-section subscribe">
+                <h2 class="footer-title">Stay Updated</h2>
+                <p>Subscribe to our newsletter for the latest arrivals and exclusive offers.</p>
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
             </div>
         </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section class="testimonial-section">
-        <div class="container">
-            <h2 class="text-center">What People Say About Us</h2>
-            <div class="row">
-                <div class="col-md-6 testimonial">
-                    <div class="img-placeholder"></div>
-                    <p>Name</p>
-                    <p>Testimonial text goes here.</p>
-                </div>
-                <div class="col-md-6 testimonial">
-                    <div class="img-placeholder"></div>
-                    <p>Name</p>
-                    <p>Testimonial text goes here.</p>
-                </div>
+    
+      
+        <div class="copy-section">
+            <div class="footer-bottom  copy-right">
+                <p>&copy; 2024 | majesty collections |  All Rights Reserved.</p>
             </div>
-        </div>
-    </section>
-
-    <!-- Register Section -->
-    <section class="register-section text-center">
-        <div class="container">
-            <h2>Want to Register Easily?</h2>
-            <button class="btn btn-primary">Submit Now</button>
-        </div>
-    </section>
-
-    <!-- Footer Section -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 S. All rights reserved.</p>
         </div>
     </footer>
+      
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+    <script  src="index.js"></script>
 </body>
 </html>
